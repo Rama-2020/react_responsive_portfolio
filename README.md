@@ -28,4 +28,14 @@ Then:
 - npm run dev
 
 
+# VSC Pluggins:
+- ES7+ React/Redux/React-Native snippets
+- Path Intellisense
+- Prettier - Code formatter
+
+
+
+
+
+
 
