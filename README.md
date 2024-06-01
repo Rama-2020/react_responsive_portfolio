@@ -33,7 +33,8 @@ Then:
 - Path Intellisense
 - Prettier - Code formatter
 
-
+# Create Component React Snippet:
+- rfce
 
 
 

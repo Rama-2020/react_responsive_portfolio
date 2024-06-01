@@ -1,15 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/RS.png'
+import About from './sections/About/About'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        RS
-      </div>
+      <About />
     </>
   )
 }
