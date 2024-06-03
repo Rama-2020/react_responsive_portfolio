@@ -41,7 +41,7 @@ function About() {
                 <img src={linkedinIcon} alt="Linkedin Icon" />
             </a>
             <a href="https://github.com" target='_blank'>
-                <img src={githubIcon} alt="Github Icon" width='18px' height='18px'/>
+                <img src={githubIcon} alt="Github Icon"/>
             </a>
         </span>
         <p>
