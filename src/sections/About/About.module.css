@@ -57,7 +57,31 @@
         transform: translateY(2px);
         box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 
-    }
-    
-    
+    }    
+}
+
+.colorModeContainer{
+    position: relative;
+}
+
+.colorMode{
+    position: absolute;
+    right: 0;
+    width: 25px;
+}
+
+.colorMode:hover{
+    cursor: pointer;
+}
+
+.description{
+    max-width: 48ch;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
 }
