@@ -4,4 +4,20 @@
     justify-content: center;
     text-align: center;
     gap: 30px;
+
+    img{
+        max-width: 250px;
+        align-self: center;
+        background-color: var(--project-card-bg);
+        border-radius: 30px;
+        
+    }
+
+}
+
+.projectsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
 }

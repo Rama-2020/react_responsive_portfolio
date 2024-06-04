@@ -12,7 +12,7 @@ function Projects({ data }) {
           <div key={project.id}>
             <a href={project.link} target='_blank' rel='noopener noreferrer'>
             {console.log(project.imageUrl)}
-              <img className={classes['hover']} src={getImageURL(project.imageUrl)} alt={project.title} width={'200px'} />
+              <img className={classes['hover']} src={getImageURL(project.imageUrl)} alt={project.title} />
             </a>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
