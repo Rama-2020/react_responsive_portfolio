@@ -1,17 +1,23 @@
 import React from 'react'
 import classes from './Projects.module.css'
-import projectImg1 from '../../assets/images/projects/img0.png'
+import {getImageURL} from '../../utils/image_util'
 
-function Projects() {
+function Projects({ data }) {
   return (
     <section id='projects' className={classes['container']}>
         <h1 className={classes['sectionsTitle']}>Projects</h1>
         <div className={classes['projectsContainer']}>
-            <a href="https://google.com" target='_blank'>
-                <img className={classes["hover"]} src={projectImg1} alt="Project 1" width={'200px'}/>
+        
+        {data.map((project) => (
+          <div key={project.id}>
+            <a href={project.link} target='_blank' rel='noopener noreferrer'>
+            {console.log(project.imageUrl)}
+              <img className={classes['hover']} src={getImageURL(project.imageUrl)} alt={project.title} width={'200px'} />
             </a>
-            <h3>Project 1</h3>
-            <p>Description 1</p>
+            <h3>{project.title}</h3>
+            <p>{project.description}</p>
+          </div>
+        ))}
         </div>
 
     </section>
