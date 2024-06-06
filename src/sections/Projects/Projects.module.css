@@ -12,26 +12,25 @@
         border-radius: 30px;
     }
     
-    
-    .project a{
+     a{
         width: fit-content;
         text-decoration: none;
         color: red;
         transition: transform 200ms ease-in-out;
     }
     
-    .project:hover {
+    a:hover {
         transform: scale(1.05);
-
     }
     
 }
 
 
+
 .projectsContainer{
     display: flex;
     flex-direction: column;
-    align-items: cebter;
+    align-items: center;
     gap: 30px;   
 
 }
