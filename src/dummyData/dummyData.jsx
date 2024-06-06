@@ -21,3 +21,14 @@ export const projectsData = [
       link: 'https://another-example.com',
     },
   ];
+
+export const dummySkills = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'DART',
+  'FLUTTER',
+  'Firebase',
+  'Python',
+]

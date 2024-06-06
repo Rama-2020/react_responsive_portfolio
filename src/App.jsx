@@ -2,6 +2,7 @@ import About from './sections/About/About'
 import './App.css'
 import Projects from './sections/Projects/Projects'
 import { projectsData } from './dummyData/dummyData'
+import Skills from './sections/Skills/Skill'
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <About />
       <Projects data={projectsData}/>
+      <Skills />
     </>
   )
 }
