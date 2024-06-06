@@ -8,16 +8,18 @@ function Projects({ data }) {
         <h1 className={classes['sectionsTitle']}>Projects</h1>
         <div className={classes['projectsContainer']}>
         
-        {data.map((project) => (
-          <div key={project.id}>
-            <a href={project.link} target='_blank' rel='noopener noreferrer'>
-            {console.log(project.imageUrl)}
-              <img className={classes['hover']} src={getImageURL(project.imageUrl)} alt={project.title} />
-            </a>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-          </div>
-        ))}
+          {data.map((project) => (
+            <div key={project.id} className={classes['project']}>
+              <a href={project.link} target='_blank'>
+              {console.log(project.imageUrl)}
+                <img className={classes['hover']} src={getImageURL(project.imageUrl)} alt={project.title} />
+              <h3>{project.title}</h3>
+              <p>{project.description}</p>
+              </a>
+            </div>
+          ),
+          )
+          }
         </div>
 
     </section>
