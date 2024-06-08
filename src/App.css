@@ -68,3 +68,8 @@ p {
 .resumeButton {
     cursor: pointer;
 }
+
+.sectionTitle {
+    margin-bottom: 30px;
+}
+  

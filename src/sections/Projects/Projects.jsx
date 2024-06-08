@@ -6,7 +6,7 @@ import Project from '../../widgets/Project'
 function Projects({ data }) {
   return (
     <section id='projects' className={classes['container']}>
-        <h1 className={classes['sectionsTitle']}>Projects</h1>
+        <h1 className={classes['sectionTitle']}>Projects</h1>
         <div className={classes['projectsContainer']}>
           {data.map((project) => (
             <Project

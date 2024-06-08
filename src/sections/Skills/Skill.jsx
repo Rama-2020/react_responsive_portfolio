@@ -7,8 +7,11 @@ import { dummySkills } from '../../dummyData/dummyData'
 function Skills({ data }) {
   return (
     <section id='skills' className={classes['container']}>
-        <h1>Skills</h1>
-        <SkillList dataSkills={dummySkills}/>
+        <h1 className='sectionTitle'>Skills</h1>
+        <div className={classes['skillList']}>
+          <SkillList dataSkills={dummySkills}/>
+
+        </div>
     </section>
   )
 }

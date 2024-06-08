@@ -27,8 +27,8 @@ export const dummySkills = [
   'CSS',
   'JavaScript',
   'React',
-  'DART',
-  'FLUTTER',
+  'Dart',
+  'Flutter',
   'Firebase',
   'Python',
 ]
