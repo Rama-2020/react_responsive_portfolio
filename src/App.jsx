@@ -4,6 +4,7 @@ import Projects from './sections/Projects/Projects'
 import { projectsData } from './dummyData/dummyData'
 import Skills from './sections/Skills/Skill'
 import Contact from './sections/Contact/Contact'
+import Footer from './sections/Footer/Footer'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Projects data={projectsData}/>
       <Skills />
       <Contact />
+      <Footer />
     </>
   )
 }

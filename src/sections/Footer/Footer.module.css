@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+    p {
+        font-size: 16px;
+        color: var(--footer-text-color);
+    }
+    
+    br {
+        display: block;
+        content: ""; /* clears default height */
+        margin-top: 10px;
+    }
+    
+}
