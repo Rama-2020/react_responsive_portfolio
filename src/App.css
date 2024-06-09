@@ -6,6 +6,7 @@
     --text-color: #222;
     --form-text-color: #555;
     --footer-text-color: #888;
+    --skill-check-color: #00FF00;
 
 }
 
@@ -18,7 +19,8 @@
     --text-color: #FFF;
     --form-text-color: #FFF;
     --footer-text-color: #BBB;
-    
+    --footer-text-color: #BBB;
+    --skill-check-color: #FF0000;    
 }
 
 body {
@@ -72,4 +74,3 @@ p {
 .sectionTitle {
     margin-bottom: 30px;
 }
-  
