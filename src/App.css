@@ -4,7 +4,7 @@
     --btn-text-color: #FFF;
     --project-card-bg: #FFFFF00;
     --text-color: #222;
-    --form-text-color: #555;
+    --form-text-color: #777;
     --footer-text-color: #888;
     --skill-check-color: #00FF00;
 
@@ -27,7 +27,7 @@ body {
     background-color: var(--background-color);
     display: flex;
     justify-content: center;
-    margin: 0 auto 0px;
+    margin: 0 auto 60px;
 }
 
 #root {
