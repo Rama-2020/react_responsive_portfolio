@@ -81,7 +81,44 @@
 .info{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    /* justify-content: center;
+    text-align: center; */
     gap: 20px;
 }
+
+@media (width >= 800px) {
+    .container{
+        flex-direction: row-reverse;
+        align-items: center; /* Position at the vertical center 1*/
+        justify-content: space-evenly;
+        /* text-align: center; */
+        gap: 30px;
+
+
+        .aboutImage {
+            width: 350px;
+            max-width: 350px;
+        }
+
+    }    
+}
+
+@media (width >= 1400px) {
+    .container{
+        flex-direction: row-reverse;
+        align-items: center; /* Position at the vertical center */
+        justify-content: space-evenly;
+        /* text-align: center; */
+        gap: 30px;
+
+
+        .aboutImage {
+            width: 450px;
+        }
+
+    }
+
+    
+    
+}
+

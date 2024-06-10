@@ -20,6 +20,13 @@ export const projectsData = [
       imageUrl: "img3.png",
       link: 'https://another-example.com',
     },
+    {
+      id: 4,
+      title: 'Project 4',
+      description: 'Description 3',
+      imageUrl: "img4.png",
+      link: 'https://another-example.com',
+    },
   ];
 
 export const dummySkills = [

@@ -34,3 +34,15 @@
     gap: 30px;   
 
 }
+
+@media (width >= 800px) {
+    .projectsContainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center; /* Position at the vertical center 1*/
+        justify-content: space-evenly;
+        /* text-align: center; */
+        gap: 30px;
+
+    }    
+}

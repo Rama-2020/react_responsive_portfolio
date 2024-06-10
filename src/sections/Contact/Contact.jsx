@@ -16,7 +16,7 @@ function Contact() {
                     type="text"
                     name='name'
                     id='name'
-                    placeholder='Name'
+                    placeholder='Enter your name'
                     required
                 />
             </div>
@@ -28,7 +28,7 @@ function Contact() {
                     type="text"
                     name='email'
                     id='email'
-                    placeholder='you-email@email.com'
+                    placeholder='Enter your email address'
                     required
                 />
             </div>
